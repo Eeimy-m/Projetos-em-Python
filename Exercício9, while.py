@@ -8,4 +8,7 @@ elif num > 0:
     while fatorial > 0:
             num_para_rep = num_para_rep * fatorial
             quant_sub+=1
-print(f"{num}! = {num_para_rep}")
+            fatorial = num - quant_sub
+    print(f"{num}! = {num_para_rep}")
+else:
+     print("Fatoriais não são definidos para números negativos!")
